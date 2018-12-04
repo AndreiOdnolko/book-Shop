@@ -13,3 +13,8 @@ body {
    height: 32px;
    margin-right: 10px;
 }
+#filter{
+   background: white;
+   color: black;
+   border: 1px solid lightgray;
+}

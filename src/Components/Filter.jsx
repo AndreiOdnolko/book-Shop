@@ -1,10 +1,14 @@
 import React from 'react'
-import { Menu, Input } from 'semantic-ui-react'
+import { Menu, Input, Icon } from 'semantic-ui-react'
 
 const Filter = ({ setFilter, filterBy, searchQuery, setSearchQuery }) => {
 
   return (
+    
     <Menu inverted color="yellow">
+      <Menu.Item id='filter'              
+      ><Icon name='filter'/>
+      Filters:</Menu.Item>
       <Menu.Item
         active={filterBy === 'all'}
         onClick={setFilter.bind(this, 'all')}
