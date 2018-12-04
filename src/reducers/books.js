@@ -1,6 +1,6 @@
 const initialState = {
    isReady: false,
-   items: null,
+   items: [],
 };
 
 const actions = {
