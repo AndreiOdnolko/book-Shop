@@ -21,7 +21,7 @@ const BookCard = (book) => {
      </Card.Content>
      <Card.Content extra>
       <Button floated="left" onClick={addToCart.bind(this, book)} inverted color='green' >Add in cart</Button>      
-      <Button floated="right" color="yellow" disabled='true' y>{`${addedCount}`}</Button> 
+      <Button floated="right" color="yellow" disabled>{`${addedCount}`}</Button> 
      </Card.Content>
      <Card.Content extra>
       Raiting:<Rating icon='star' rating={rating} maxRating={5} size='small' /> {`${rating}/5`}
