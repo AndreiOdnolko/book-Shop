@@ -5,3 +5,11 @@ body {
 .menu {
    margin-bottom: 20px;
 }
+#wrapper-logo {
+   padding: 5px;
+}
+.logo{
+   width: 32px;
+   height: 32px;
+   margin-right: 10px;
+}

@@ -15,9 +15,9 @@ const CartComponent = ({ title, id, image, removeToCart }) => (
 
 const MenuComponent = ({ totalPrice, count, items }) => (
   <Menu>
-    <Menu.Item name='browse'>
-      <Icon name='book' color="green" loading/>
-      's Store
+    <Menu.Item name='browse' id="wrapper-logo">
+      <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdU4NAqn-SYQhWSNIy5E9trgNGKVpqn_zikkQukx5ejjOv_wgs' className="logo"  />
+      book Store
    </Menu.Item>
 
     <Menu.Menu position='right'>
