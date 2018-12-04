@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, List, Button, Image, Popup, Icon } from 'semantic-ui-react'
+import logo from '../image/icon.png'
 
 const CartComponent = ({ title, id, image, removeToCart }) => (
   <List selection divided verticalAlign='middle'>
@@ -16,7 +17,7 @@ const CartComponent = ({ title, id, image, removeToCart }) => (
 const MenuComponent = ({ totalPrice, count, items }) => (
   <Menu>
     <Menu.Item name='browse' id="wrapper-logo">
-      <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdU4NAqn-SYQhWSNIy5E9trgNGKVpqn_zikkQukx5ejjOv_wgs' className="logo"  />
+      <Image src={logo} className="logo" />
       book Store
    </Menu.Item>
 
