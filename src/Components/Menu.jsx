@@ -35,7 +35,7 @@ const MenuComponent = ({ totalPrice, count, items }) => (
           </Button>          
         }
         wide="very"
-        content={items.map(book => <CartComponent { ...book } />)}
+        content={items.map((book, i) => <CartComponent { ...book } key={i} />)}
         on="click"
         hideOnScroll
       />
